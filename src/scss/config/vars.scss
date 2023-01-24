@@ -1,0 +1,34 @@
+$maxWidth: 1440px; // максимальная ширина страницы
+$minWidth: 320px; // минимальная ширина телефона
+
+$mainFont: 'Geometria'; // !указать здесь основное семейство шрифта
+$mainWeight: 400; // !указать здесь основное начертание шрифта
+
+$mainRadius: rem(5);
+
+$white: #fff;
+$black: #000;
+$black90: rgba(0, 0, 0, .9);
+$grayColor: #f6f6f6;
+$blue: #5fbcff;
+$borderBlue: rgb(95, 188, 255);
+$darkBlue: #01253f;
+$red: #ff4040;
+
+
+$fontFamily: $mainFont, sans-serif; // Семейство шрифта по умолчанию
+$fontColor: $black; // Цвет шрифта по умолчанию
+$fontSize: rem(16); // Размер шрифта по умолчанию
+$fontWeight: $mainWeight; // Жирность шрифта по умолчанию
+
+$standartTrans: all 280ms ease-in-out 0ms;
+
+$btnBoxShadow: 4px 4px 8px 0px rgba(95, 188, 255, .5);
+
+// $lightBoxShadow: 0 0 2px 0 rgba(#000, 10%),
+//    0 0 4px 0 rgba(#000, 10%),
+//    0 0 8px 0 rgba(#000, 10%);
+
+// $hoverBoxShadow: 0 0 5px 0 rgba(#000, 10%),
+//    0 0 10px 0 rgba(#000, 10%),
+//    0 0 15px 0 rgba(#000, 10%);

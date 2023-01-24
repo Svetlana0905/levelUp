@@ -1,0 +1,15 @@
+.reviews {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   max-width: $maxWidth;
+   margin: 0 auto;
+   padding-top: 50px;
+   padding-bottom: 45px;
+   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(../../images/bg.jpg);
+
+   & h2 {
+      margin-bottom: 20px;
+   }
+}

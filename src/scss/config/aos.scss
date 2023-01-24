@@ -1,0 +1,71 @@
+[data-aos="scroll-top"] {
+   transform: translate(0px, -300px);
+   transition: all 1s ease 0.5s;
+}
+
+[data-aos="scroll-top"].aos-animate {
+   transform: translate(0px, 0px);
+}
+
+[data-aos="scroll-top2"] {
+   transform: translate(0px, -300px);
+   transition: all 1s ease 0.7s;
+}
+
+[data-aos="scroll-top2"].aos-animate {
+   transform: translate(0px, 0px);
+}
+
+[data-aos="scroll-left1"] {
+   transform: translate(-1500px, 0px);
+   transition: all 1s ease 0.3s;
+}
+
+[data-aos="scroll-left1"].aos-animate {
+   transform: translate(0px, 0px);
+}
+
+[data-aos="scroll-left2"] {
+   transform: translate(-1500px, 0px);
+   transition: all 1s ease 0.5s;
+}
+
+[data-aos="scroll-left2"].aos-animate {
+   transform: translate(0px, 0px);
+}
+
+[data-aos="scroll-left3"] {
+   transform: translate(-1500px, 0px);
+   transition: all 1s ease 0.7s;
+}
+
+[data-aos="scroll-left3"].aos-animate {
+   transform: translate(0px, 0px);
+}
+
+[data-aos="scroll-right1"] {
+   transform: translate(1500px, 0px);
+   transition: all 1s ease 0.3s;
+}
+
+[data-aos="scroll-right1"].aos-animate {
+   transform: translate(0px, 0px);
+}
+
+[data-aos="scroll-right2"] {
+   transform: translate(1500px, 0px);
+   transition: all 1s ease 0.5s;
+}
+
+[data-aos="scroll-right2"].aos-animate {
+   transform: translate(0px, 0px);
+}
+
+[data-aos="scroll-right3"] {
+   transform: translate(1500px, 0px);
+   transition: all 1s ease 0.7s;
+}
+
+[data-aos="scroll-right3"].aos-animate {
+   transform: translate(0px, 0px);
+}
