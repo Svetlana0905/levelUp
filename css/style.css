@@ -665,8 +665,11 @@ h3 {
   width: -moz-fit-content;
   width: fit-content;
   gap: 15px;
-  color: #c386cf;
   font-size: 0.875rem;
+}
+
+.nav__phone-blok span:first-child {
+  color: #c386cf;
 }
 
 .list {
