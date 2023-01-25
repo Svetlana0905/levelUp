@@ -260,9 +260,9 @@ h6 {
   -webkit-transform: scale(0);
       -ms-transform: scale(0);
           transform: scale(0);
-  -webkit-transition: all 1s ease 0.2s;
-  -o-transition: all 1s ease 0.2s;
-  transition: all 1s ease 0.2s;
+  -webkit-transition: all 1s ease 0.3s;
+  -o-transition: all 1s ease 0.3s;
+  transition: all 1s ease 0.3s;
 }
 
 [data-aos=zoom1].aos-animate {
@@ -504,10 +504,13 @@ h3 {
 
 .video {
   position: relative;
-  width: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 90%;
   height: 0;
   padding-bottom: 56.25%;
-  background-color: #000;
+  background-color: transparent;
 }
 
 .video__link {
@@ -1274,6 +1277,10 @@ h3 {
 
   .subtitle {
     font-size: 22px;
+  }
+
+  .video {
+    width: 50%;
   }
 
   .nav {
