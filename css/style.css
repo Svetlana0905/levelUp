@@ -256,6 +256,36 @@ h6 {
           transform: translate(0px, 0px);
 }
 
+[data-aos=zoom1] {
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 1s ease 0.2s;
+  -o-transition: all 1s ease 0.2s;
+  transition: all 1s ease 0.2s;
+}
+
+[data-aos=zoom1].aos-animate {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+}
+
+[data-aos=zoom2] {
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 1s ease 0.7s;
+  -o-transition: all 1s ease 0.7s;
+  transition: all 1s ease 0.7s;
+}
+
+[data-aos=zoom2].aos-animate {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+}
+
 :root {
   --swiper-theme-color: $blue;
 }
@@ -1017,9 +1047,9 @@ h3 {
   letter-spacing: 0.1rem;
 }
 
-.order__old-price::after {
-  position: absolute;
+.order__old-price span {
   content: "";
+  position: absolute;
   width: 100%;
   display: block;
   left: 0;
@@ -1070,8 +1100,6 @@ h3 {
 .time small {
   font-size: 26px;
 }
-
-/* Preloader */
 
 .lds-ripple {
   display: inline-block;
