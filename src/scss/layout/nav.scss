@@ -33,8 +33,11 @@
       flex: 0 1 auto;
       width: fit-content;
       gap: 15px;
-      color: $pink;
       font-size: rem(14);
+
+      & span:first-child {
+         color: $pink;
+      }
 
       @include media(768) {
          font-size: rem(18);
