@@ -534,7 +534,7 @@ h3 {
   max-width: 1440px;
   margin: 0 auto;
   margin-bottom: 2.1875em;
-  padding: 2.1875em;
+  padding: 0.9375em;
   -webkit-box-shadow: 4px 4px 8px 0px rgba(255, 255, 255, 0.2);
           box-shadow: 4px 4px 8px 0px rgba(255, 255, 255, 0.2);
 }
@@ -562,7 +562,7 @@ h3 {
   width: fit-content;
   gap: 15px;
   color: #c386cf;
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 
 .list {
@@ -1172,6 +1172,10 @@ h3 {
 
   .subtitle {
     font-size: 22px;
+  }
+
+  .nav {
+    padding: 2.1875em;
   }
 
   .nav img {
