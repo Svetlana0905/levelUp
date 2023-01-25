@@ -1,5 +1,5 @@
 [data-aos="scroll-top"] {
-   transform: translate(0px, -300px);
+   transform: translate(0px, -700px);
    transition: all 1s ease 0.5s;
 }
 
@@ -8,7 +8,7 @@
 }
 
 [data-aos="scroll-top2"] {
-   transform: translate(0px, -300px);
+   transform: translate(0px, -700px);
    transition: all 1s ease 0.7s;
 }
 
@@ -68,4 +68,22 @@
 
 [data-aos="scroll-right3"].aos-animate {
    transform: translate(0px, 0px);
+}
+
+[data-aos="zoom1"] {
+   transform: scale(0);
+   transition: all 1s ease 0.3s;
+}
+
+[data-aos="zoom1"].aos-animate {
+   transform: scale(1);
+}
+
+[data-aos="zoom2"] {
+   transform: scale(0);
+   transition: all 1s ease 0.7s;
+}
+
+[data-aos="zoom2"].aos-animate {
+   transform: scale(1);
 }

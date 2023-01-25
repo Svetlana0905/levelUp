@@ -6,7 +6,7 @@ import {
 } from './helpers/elementsNodeList'
 
 import AOS from 'aos';
-import { isWebp } from './modules'
+import { isWebp, findVideos } from './modules'
 
 import Swiper, { Navigation } from 'swiper';
 
@@ -35,7 +35,7 @@ function updateCounter() {
 
   minutes.innerText = minutesLeft < 10 ? '0' + minutesLeft : minutesLeft;
   seconds.innerText = secondsLeft < 10 ? '0' + secondsLeft : secondsLeft;
-  if (diff <= 0) {
+  if (diff <= 1) {
     clearInterval(interval)
     clearTimeout(timeout)
   }
@@ -52,7 +52,9 @@ let timeout = setTimeout(function () {
 
 window['FLS'] = true
 
-isWebp()
+isWebp();
 
 AOS.init();
+
+findVideos()
 

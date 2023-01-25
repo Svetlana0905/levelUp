@@ -56,9 +56,9 @@
       color: $white;
       letter-spacing: 0.1rem;
 
-      &::after {
-         position: absolute;
+      & span {
          content: '';
+         position: absolute;
          width: 100%;
          display: block;
          left: 0;
@@ -121,8 +121,6 @@
       font-size: 16px;
    }
 }
-
-/* Preloader */
 
 .lds-ripple {
    display: inline-block;

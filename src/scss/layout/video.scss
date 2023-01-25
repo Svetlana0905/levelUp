@@ -1,0 +1,72 @@
+.video {
+   position: relative;
+   align-self: center;
+   width: 90%;
+   height: 0;
+   padding-bottom: 56.25%;
+   background-color: transparent;
+
+   @include media(768) {
+      width: 50%;
+   }
+}
+
+.video__link {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+.video__media {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   border: none;
+   object-fit: contain;
+}
+
+.video__button {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   z-index: 1;
+   display: none;
+   padding: 0;
+   width: 68px;
+   height: 48px;
+   border: none;
+   background-color: transparent;
+   transform: translate(-50%, -50%);
+   cursor: pointer;
+}
+
+.video__button-shape {
+   fill: $youtybeDark;
+   fill-opacity: 0.8;
+}
+
+.video__button-icon {
+   fill: $white;
+}
+
+.video__button:focus {
+   outline: none;
+}
+
+.video:hover .video__button-shape,
+.video__button:focus .video__button-shape {
+   fill: $youtybeRed;
+   fill-opacity: 1;
+}
+
+.video--enabled {
+   cursor: pointer;
+}
+
+.video--enabled .video__button {
+   display: block;
+}
