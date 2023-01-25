@@ -1,0 +1,16 @@
+.form {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: em(25);
+   width: 100%;
+   padding: rem(20) rem(10);
+
+   & .primary-button {
+      align-self: center;
+   }
+
+   @include media(768) {
+      width: 45%;
+   }
+}

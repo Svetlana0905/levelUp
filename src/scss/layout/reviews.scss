@@ -1,15 +1,12 @@
 .reviews {
    display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-around;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
    max-width: $maxWidth;
+   min-width: 0;
    margin: 0 auto;
    padding-top: 50px;
    padding-bottom: 45px;
-   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(../../images/bg.jpg);
-
-   & h2 {
-      margin-bottom: 20px;
-   }
+   background: linear-gradient($boxShadowBlack90, $boxShadowBlack60), url(./../images/bg.jpg);
 }

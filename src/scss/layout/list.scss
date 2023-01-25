@@ -1,0 +1,22 @@
+.list {
+   display: flex;
+   padding: 20px;
+   background: $black;
+   border-radius: 15px;
+   box-shadow: $boxShadow02;
+
+   &__item {
+      position: relative;
+      padding-left: 56px;
+
+      &::before {
+         content: '';
+         position: absolute;
+         height: 35px;
+         width: 39px;
+         top: 7px;
+         left: 0;
+         background: url(./../images/icon/blue_arrow.svg);
+      }
+   }
+}

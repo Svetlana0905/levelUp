@@ -1,16 +1,24 @@
+.header {
+   width: 100%;
+   padding: 15px 0 70px;
+   background: $black;
+}
+
 .full-screen {
    display: flex;
    flex-direction: column;
    text-align: center;
    margin: 0 auto;
-   max-width: $maxWidth;
-   padding-top: 20px;
-   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(../../images/bg.jpg);
+   background: $boxShadowBlack40;
 
    &__inner {
       position: relative;
       display: flex;
       flex-direction: column;
+      max-width: $maxWidth;
+      width: 100%;
+      margin: 0 auto;
+      background: linear-gradient($boxShadowBlack80, $boxShadowBlack40), url(./../images/bg.jpg);
 
       @include media(768) {
          flex-direction: row;
@@ -20,11 +28,10 @@
    &__body {
       display: flex;
       flex-direction: column;
-      width: 100%;
       align-items: center;
       justify-content: space-between;
-      gap: 25px;
-      padding: 0px 20px 30px;
+      gap: rem(25);
+      padding: 0px rem(20) rem(30);
       z-index: 2;
 
       @include media(768) {
@@ -40,10 +47,6 @@
       @include media(768) {
          max-width: 150px;
       }
-   }
-
-   &__subtitle {
-      margin-bottom: 35px;
    }
 
    &__video {
@@ -62,32 +65,10 @@
    }
 
    &__list {
-      display: flex;
+      margin-bottom: rem(35);
       flex-direction: column;
       justify-content: space-between;
       max-width: 365px;
-      margin-bottom: 35px;
-      padding: 20px;
-      background: $black;
-      border-radius: 15px;
-      -webkit-box-shadow: 4px 4px 8px 0px rgba(255, 255, 255, 0.2);
-      -moz-box-shadow: 4px 4px 8px 0px rgba(255, 255, 255, 0.2);
-      box-shadow: 4px 4px 8px 0px rgba(255, 255, 255, 0.2);
-   }
-}
-
-.list__item {
-   position: relative;
-   padding-left: 64px;
-
-   &::before {
-      content: '';
-      position: absolute;
-      height: 35px;
-      width: 39px;
-      top: 7px;
-      left: 0;
-      background: url(../images/icon/blue_arrow.svg);
-
+      gap: em(15);
    }
 }

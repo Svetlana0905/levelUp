@@ -37,6 +37,7 @@ body {
   line-height: 1;
   background: $black90;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 input,
@@ -51,6 +52,10 @@ input::-ms-clear {
 
 button {
   cursor: pointer;
+}
+
+picture {
+  display: contents;
 }
 
 button::-moz-focus-inner {
@@ -87,8 +92,4 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: 400;
-}
-
-sup {
-  color: inherit;
 }

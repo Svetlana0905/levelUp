@@ -1,10 +1,10 @@
 $maxWidth: 1440px; // максимальная ширина страницы
+$largWidth: 1140px;
 $minWidth: 320px; // минимальная ширина телефона
 
 $mainFont: 'Geometria'; // !указать здесь основное семейство шрифта
 $mainWeight: 400; // !указать здесь основное начертание шрифта
 
-$mainRadius: rem(5);
 
 $white: #fff;
 $black: #000;
@@ -12,7 +12,9 @@ $black90: rgba(0, 0, 0, .9);
 $grayColor: #f6f6f6;
 $blue: #5fbcff;
 $borderBlue: rgb(95, 188, 255);
+$white30: rgba(255, 255, 255, .3);
 $darkBlue: #01253f;
+$pink: #c386cf;
 $red: #ff4040;
 
 
@@ -21,14 +23,14 @@ $fontColor: $black; // Цвет шрифта по умолчанию
 $fontSize: rem(16); // Размер шрифта по умолчанию
 $fontWeight: $mainWeight; // Жирность шрифта по умолчанию
 
-$standartTrans: all 280ms ease-in-out 0ms;
+$borderRadius: 5px;
+
+$standartTrans: all 300ms ease-in-out 0ms;
 
 $btnBoxShadow: 4px 4px 8px 0px rgba(95, 188, 255, .5);
-
-// $lightBoxShadow: 0 0 2px 0 rgba(#000, 10%),
-//    0 0 4px 0 rgba(#000, 10%),
-//    0 0 8px 0 rgba(#000, 10%);
-
-// $hoverBoxShadow: 0 0 5px 0 rgba(#000, 10%),
-//    0 0 10px 0 rgba(#000, 10%),
-//    0 0 15px 0 rgba(#000, 10%);
+$boxShadow02: 4px 4px 8px 0px rgba(255, 255, 255, 0.2);
+$boxShadowBlack90: rgba(0, 0, 0, 0.9);
+$boxShadowBlack60: rgba(0, 0, 0, 0.6);
+$boxShadowBlack40: rgba(0, 0, 0, 0.4);
+$boxShadowBlack80: rgba(0, 0, 0, 0.8);
+$boxShadowBlue: inset 0px 3px 41px 25px rgba(175, 222, 255, 0.26), 21px 7px 56px -1px rgb(95 188 255 / 33%);

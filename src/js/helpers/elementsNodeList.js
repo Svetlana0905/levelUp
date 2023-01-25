@@ -1,19 +1,19 @@
 const html = document.documentElement
 const body = document.body
-const pageWrapper = document.querySelector('.page')
-const header = document.querySelector('.header')
-const firstScreen = document.querySelector('[data-observ]')
-const burgerButton = document.querySelector('.icon-menu')
-const menu = document.querySelector('.menu')
-const lockPaddingElements = document.querySelectorAll('[data-lp]')
+const nextBtnSwiper = document.querySelector('.swiper-button-next')
+const prevBtnSwiper = document.querySelector('.swiper-button-prev')
+const minutes = document.querySelector('#minutes');
+const seconds = document.querySelector('#seconds');
+const countdown = document.querySelector('#countdown');
+const preloader = document.querySelector('#preloader');
 
 export {
   html,
   body,
-  pageWrapper,
-  header,
-  firstScreen,
-  burgerButton,
-  menu,
-  lockPaddingElements,
+  minutes,
+  seconds,
+  countdown,
+  preloader,
+  nextBtnSwiper,
+  prevBtnSwiper
 }

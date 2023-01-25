@@ -5,12 +5,13 @@
    justify-content: space-around;
    max-width: $maxWidth;
    margin: 0 auto;
-   padding-top: 50px;
-   padding-bottom: 45px;
-   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(../../images/bg.jpg);
+   padding-top: em(50);
+   padding-bottom: em(45);
+   background: linear-gradient($boxShadowBlack40, $boxShadowBlack90), url(./../images/bg.jpg);
 
    @include media(768) {
       flex-wrap: nowrap;
+      padding-top: 100px;
    }
 
    &__title-block {
@@ -33,12 +34,28 @@
          width: 50%;
          object-fit: cover;
       }
+
+      & h2 {
+         position: relative;
+
+         &::after {
+            position: absolute;
+            content: '';
+            width: 100%;
+            display: block;
+            left: 0;
+            bottom: 0;
+            height: 1px;
+            background: $pink;
+         }
+      }
    }
 
    &__ingredients {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      align-items: center;
       gap: 15px;
       width: 30%;
 
@@ -46,7 +63,7 @@
          border-right: 1px solid;
          padding-right: 7px;
          order: 2;
-         width: 45%;
+         width: 48%;
 
          @include media(768) {
             flex-wrap: nowrap;
@@ -58,7 +75,7 @@
          border-left: 1px solid;
          padding-left: 7px;
          order: 3;
-         width: 45%;
+         width: 48%;
 
          @include media(768) {
             order: 3;
@@ -73,6 +90,7 @@
       align-items: center;
       padding-top: 25px;
       text-align: center;
+      max-width: 400px;
 
       & img {
          width: 100px;

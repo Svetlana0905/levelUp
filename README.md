@@ -1,3 +1,3 @@
-# Start Template: Gulp + WebPack + Babel
+ Start Template: Gulp + WebPack + Babel
 
-GitHub Pages - 
+GitHub Pages - https://svetlana0905.github.io/levelUp/

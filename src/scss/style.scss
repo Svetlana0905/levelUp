@@ -15,71 +15,28 @@
 // AOS анимация 
 @import 'config/aos';
 
+// Подключение swiper
+@import 'libs/swiper';
+
+// Текст
+@import 'config/typography';
+
 // Подключение стилей отдельных блоков и секций 
 @import 'layout/buttons';
-@import 'layout/header-section';
+@import 'layout/input';
+@import 'layout/nav';
+@import 'layout/list';
+@import 'layout/header';
 @import 'layout/product';
 @import 'layout/reviews';
+@import 'layout/promo';
+@import 'layout/order';
+@import 'layout/form';
 
 .main {
-   max-width: $maxWidth;
-   width: 100%;
-   margin: 0 auto;
-}
-
-h1 {
-   font-size: 30px;
-   font-weight: 600;
-   text-transform: uppercase;
-   line-height: 1.5;
+   padding: 0 10px;
 
    @include media(768) {
-      font-size: 40px;
-      font-weight: 900;
+      padding: 0;
    }
-
-   @include media(1024) {
-      font-size: 50px;
-   }
-}
-
-h2 {
-   font-size: 35px;
-   font-weight: 600;
-   text-align: center;
-   line-height: 1.5;
-}
-
-h3 {
-   font-size: 18px;
-   line-height: 25px;
-   letter-spacing: 0em;
-   font-weight: 400;
-   text-align: center;
-
-   @include media(768) {
-      font-size: 20px;
-      line-height: 25px;
-   }
-
-   @include media(1024) {
-      font-size: 22px;
-      line-height: 33px;
-   }
-}
-
-.subtitle {
-   font-weight: 300;
-   font-size: 18px;
-   line-height: 1.6;
-
-   @include media(768) {
-      font-size: 22px;
-   }
-}
-
-.primary-text {
-   font-size: 16px;
-   line-height: 26px;
-   letter-spacing: 0em;
 }

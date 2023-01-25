@@ -1,0 +1,35 @@
+.primary-input {
+   max-width: 300px;
+   min-width: 250px;
+   width: 100%;
+   padding: em(12) em(7);
+   color: $white;
+   font-size: rem(18);
+   border: 1px solid $borderBlue;
+   border-radius: $borderRadius;
+   background: transparent;
+}
+
+.primary-label {
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+   gap: 7px;
+
+   &__pattern {
+      opacity: 0;
+      font-size: 14px;
+      color: $pink;
+      transition: $standartTrans;
+   }
+
+   & p {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &:focus &__pattern,
+   &:hover &__pattern {
+      opacity: 0.8;
+   }
+}

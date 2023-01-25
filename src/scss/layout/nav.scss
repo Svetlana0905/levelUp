@@ -1,0 +1,39 @@
+.nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: $maxWidth;
+   margin: 0 auto;
+   margin-bottom: em(35);
+   padding: em(35);
+   box-shadow: $boxShadow02;
+
+
+   & img {
+      max-width: 150px;
+      width: 100%;
+      object-fit: cover;
+
+      @include media(425) {
+         max-width: 170px;
+      }
+
+      @include media(768) {
+         max-width: 300px;
+      }
+   }
+
+   &__phone-blok {
+      display: flex;
+      flex-direction: column;
+      flex: 0 1 auto;
+      width: fit-content;
+      gap: 15px;
+      color: $pink;
+      font-size: rem(16);
+
+      @include media(768) {
+         font-size: rem(18);
+      }
+   }
+}

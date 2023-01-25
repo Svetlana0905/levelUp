@@ -1,0 +1,162 @@
+.order {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   max-width: $largWidth;
+   margin: 0 auto;
+   margin-bottom: em(35);
+   padding: em(20) em(10);
+   border: 2px solid #5fbcff;
+   border-radius: 17px;
+   background: linear-gradient($boxShadowBlack80, $boxShadowBlack90), url(./../images/bg.jpg);
+   box-shadow: $boxShadowBlue;
+
+
+   @include media(768) {
+      padding: 50px 10px;
+   }
+
+   &__body {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+      flex-direction: column;
+      padding-top: em(15);
+
+      @include media(768) {
+         flex-direction: row;
+      }
+   }
+
+   &__price-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: em(15);
+
+      & img {
+         max-width: 150px;
+         object-fit: cover;
+
+         @include media(768) {
+            max-width: 200px;
+         }
+      }
+   }
+
+   &__price {
+      display: flex;
+      gap: em(25);
+      align-items: flex-end;
+   }
+
+   &__old-price {
+      position: relative;
+      font-size: 32px;
+      color: $white;
+      letter-spacing: 0.1rem;
+
+      &::after {
+         position: absolute;
+         content: '';
+         width: 100%;
+         display: block;
+         left: 0;
+         bottom: 50%;
+         height: 3px;
+         background: $red;
+      }
+   }
+
+   &__new-price {
+      font-size: 40px;
+      color: $blue;
+      font-weight: 600;
+      letter-spacing: 0.2rem;
+   }
+}
+
+.countdown {
+   display: none;
+   align-items: center;
+   justify-content: center;
+}
+
+.time {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 30px;
+}
+
+.time h2 {
+   margin: 0 0 10px;
+   font-size: 48px;
+}
+
+.time small {
+   font-size: 26px;
+}
+
+@media (max-width: 500px) {
+   .title {
+      font-size: 35px;
+   }
+
+   .countdown {
+      align-items: center;
+   }
+
+   .time {
+      margin: 10px;
+   }
+
+   .time h2 {
+      font-size: 32px;
+      margin: 0;
+   }
+
+   .time small {
+      font-size: 16px;
+   }
+}
+
+/* Preloader */
+
+.lds-ripple {
+   display: inline-block;
+   position: relative;
+   width: 80px;
+   height: 80px;
+}
+
+.lds-ripple div {
+   position: absolute;
+   border: 4px solid $white;
+   opacity: 1;
+   border-radius: 50%;
+   animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.lds-ripple div:nth-child(2) {
+   animation-delay: -0.5s;
+}
+
+@keyframes lds-ripple {
+   0% {
+      top: 36px;
+      left: 36px;
+      width: 0;
+      height: 0;
+      opacity: 1;
+   }
+
+   100% {
+      top: 0px;
+      left: 0px;
+      width: 72px;
+      height: 72px;
+      opacity: 0;
+   }
+}
