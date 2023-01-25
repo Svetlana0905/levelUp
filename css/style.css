@@ -539,7 +539,7 @@ h3 {
   width: 39px;
   top: 7px;
   left: 0;
-  background: url(./images/icon/blue_arrow.svg);
+  background: url(./../images/icon/blue_arrow.svg);
 }
 
 .header {
@@ -564,9 +564,9 @@ h3 {
 }
 
 .no-webp .full-screen__inner {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.4))), url(./images/bg.jpg);
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(./images/bg.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(./images/bg.jpg); }
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.4))), url(./../images/bg.jpg);
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(./../images/bg.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(./../images/bg.jpg); }
 
 .full-screen__inner {
   position: relative;
@@ -631,9 +631,9 @@ h3 {
 }
 
 .no-webp .product {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.9))), url(./images/bg.jpg);
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(./images/bg.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(./images/bg.jpg); }
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.9))), url(./../images/bg.jpg);
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(./../images/bg.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(./../images/bg.jpg); }
 
 .product {
   display: -webkit-box;
@@ -761,9 +761,9 @@ h3 {
 }
 
 .no-webp .reviews {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.6))), url(./images/bg.jpg);
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(./images/bg.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(./images/bg.jpg); }
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.6))), url(./../images/bg.jpg);
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(./../images/bg.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(./../images/bg.jpg); }
 
 .reviews {
   display: -webkit-box;
@@ -785,9 +785,9 @@ h3 {
 }
 
 .no-webp .promo {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.9))), url(./images/bg.jpg);
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(./images/bg.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(./images/bg.jpg); }
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.9))), url(./../images/bg.jpg);
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(./../images/bg.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(./../images/bg.jpg); }
 
 .promo {
   display: -webkit-box;
@@ -890,9 +890,9 @@ h3 {
 }
 
 .no-webp .order {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.9))), url(./images/bg.jpg);
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(./images/bg.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(./images/bg.jpg); }
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.9))), url(./../images/bg.jpg);
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(./../images/bg.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(./../images/bg.jpg); }
 
 .order {
   display: -webkit-box;
@@ -1227,12 +1227,12 @@ h3 {
   }
 }
 
-.webp .full-screen__inner { background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.4))), url(./images/bg.webp); background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(./images/bg.webp); background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(./images/bg.webp); }
+.webp .full-screen__inner { background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.4))), url(./../images/bg.webp); background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(./../images/bg.webp); background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(./../images/bg.webp); }
 
-.webp .product { background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.9))), url(./images/bg.webp); background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(./images/bg.webp); background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(./images/bg.webp); }
+.webp .product { background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.9))), url(./../images/bg.webp); background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(./../images/bg.webp); background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(./../images/bg.webp); }
 
-.webp .reviews { background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.6))), url(./images/bg.webp); background: -o-linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(./images/bg.webp); background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(./images/bg.webp); }
+.webp .reviews { background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.6))), url(./../images/bg.webp); background: -o-linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(./../images/bg.webp); background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(./../images/bg.webp); }
 
-.webp .promo { background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.9))), url(./images/bg.webp); background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(./images/bg.webp); background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(./images/bg.webp); }
+.webp .promo { background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.9))), url(./../images/bg.webp); background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(./../images/bg.webp); background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(./../images/bg.webp); }
 
-.webp .order { background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.9))), url(./images/bg.webp); background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(./images/bg.webp); background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(./images/bg.webp); }
+.webp .order { background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.9))), url(./../images/bg.webp); background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(./../images/bg.webp); background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(./../images/bg.webp); }
