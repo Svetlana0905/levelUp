@@ -74,7 +74,7 @@
    &__list {
       flex-direction: column;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-start;
       gap: 15px;
       width: 100%;
       padding: 35px;
@@ -82,6 +82,7 @@
 
       @include media(768) {
          flex-direction: row;
+         align-items: center;
       }
 
       & li {

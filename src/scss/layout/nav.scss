@@ -5,8 +5,12 @@
    max-width: $maxWidth;
    margin: 0 auto;
    margin-bottom: em(35);
-   padding: em(35);
+   padding: em(15);
    box-shadow: $boxShadow02;
+
+   @include media(768) {
+      padding: em(35);
+   }
 
 
    & img {
@@ -30,7 +34,7 @@
       width: fit-content;
       gap: 15px;
       color: $pink;
-      font-size: rem(16);
+      font-size: rem(14);
 
       @include media(768) {
          font-size: rem(18);

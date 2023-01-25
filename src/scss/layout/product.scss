@@ -6,12 +6,13 @@
    max-width: $maxWidth;
    margin: 0 auto;
    padding-top: em(50);
-   padding-bottom: em(45);
+   padding-bottom: 0;
    background: linear-gradient($boxShadowBlack40, $boxShadowBlack90), url(./../images/bg.jpg);
 
    @include media(768) {
       flex-wrap: nowrap;
       padding-top: 100px;
+      padding-bottom: em(45);
    }
 
    &__title-block {
@@ -37,6 +38,9 @@
 
       & h2 {
          position: relative;
+         padding-bottom: 10px;
+         background: $black90;
+         box-shadow: $boxShadow02;
 
          &::after {
             position: absolute;
@@ -45,8 +49,7 @@
             display: block;
             left: 0;
             bottom: 0;
-            height: 1px;
-            background: $pink;
+            height: 3px;
          }
       }
    }
@@ -60,24 +63,26 @@
       width: 30%;
 
       &:first-child {
-         border-right: 1px solid;
-         padding-right: 7px;
+         border-right: 1px solid $pink;
+         padding-right: 2px;
          order: 2;
-         width: 48%;
+         width: 49%;
 
          @include media(768) {
+            padding-right: 7px;
             flex-wrap: nowrap;
             order: 1;
          }
       }
 
       &:last-child {
-         border-left: 1px solid;
-         padding-left: 7px;
+         border-left: 1px solid $pink;
+         padding-left: 2px;
          order: 3;
-         width: 48%;
+         width: 49%;
 
          @include media(768) {
+            padding-left: 7px;
             order: 3;
          }
       }
