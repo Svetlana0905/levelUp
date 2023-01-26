@@ -19,7 +19,7 @@
    </div>
    <div class="order__body">
       <div class="order__price-block">
-         <img src="./images/header/prod.webp" alt="LevelUp">
+         <img class="order__img" src="./images/header/prod.webp" alt="LevelUp">
          <div class="order__price">
             <p class="order__old-price" data-aos="zoom1"><span data-aos="zoom2"> </span>450 &#8381
             </p>
@@ -29,11 +29,13 @@
       <form class="form">
          <h3>Заказать</h3>
          <label class="primary-label">
-            <p><span>Имя</span><span class="primary-label__pattern">Имя 3-16 символов</span></p>
+            <p class="primary-label__header"><span>Имя</span><span class="primary-label__pattern">Имя 3-16
+                  символов</span></p>
             <input type="text" class="primary-input" pattern="\w{3-16}" required>
          </label>
          <label class="primary-label">
-            <p><span>Телефон</span><span class="primary-label__pattern">8-999-77-666-5555</span></p>
+            <p class="primary-label__header"><span>Телефон</span><span
+                  class="primary-label__pattern">8-999-77-666-5555</span></p>
             <input type="tel" class="primary-input" pattern="[8]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
          </label>
          <button class="primary-button" type="submit">Заказать</button>

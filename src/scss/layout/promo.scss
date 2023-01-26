@@ -21,16 +21,16 @@
       @include media(768) {
          flex-direction: row;
       }
+   }
 
-      & img {
-         object-fit: cover;
-         width: 90%;
-         order: 2;
+   &__img {
+      object-fit: cover;
+      width: 90%;
+      order: 2;
 
-         @include media(768) {
-            order: 1;
-            width: 40%;
-         }
+      @include media(768) {
+         order: 1;
+         width: 40%;
       }
    }
 

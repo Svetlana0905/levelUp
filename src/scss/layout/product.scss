@@ -15,6 +15,12 @@
       padding-bottom: em(45);
    }
 
+   &__img-title-block {
+      max-width: 220px;
+      width: 50%;
+      object-fit: cover;
+   }
+
    &__title-block {
       display: flex;
       flex-direction: column;
@@ -28,12 +34,6 @@
       @include media(768) {
          order: 2;
          width: 30%;
-      }
-
-      & img {
-         max-width: 220px;
-         width: 50%;
-         object-fit: cover;
       }
 
       & h2 {
@@ -53,6 +53,8 @@
          }
       }
    }
+
+
 
    &__ingredients {
       display: flex;

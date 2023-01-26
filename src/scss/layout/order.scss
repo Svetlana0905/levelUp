@@ -33,14 +33,14 @@
       flex-direction: column;
       align-items: center;
       gap: em(15);
+   }
 
-      & img {
-         max-width: 150px;
-         object-fit: cover;
+   &__img {
+      max-width: 150px;
+      object-fit: cover;
 
-         @include media(768) {
-            max-width: 200px;
-         }
+      @include media(768) {
+         max-width: 200px;
       }
    }
 
