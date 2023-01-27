@@ -11,5 +11,5 @@ HTML, JS, Анимация - aos,  Слайдер - swiper
 Адаптив
 ![2](https://user-images.githubusercontent.com/75973334/215095469-364964a1-a806-4798-8177-224514926141.jpg)
 
-![2](https://user-images.githubusercontent.com/75973334/215095469-364964a1-a806-4798-8177-224514926141.jpg)
+![1](https://user-images.githubusercontent.com/75973334/215095861-c258d416-94d5-478a-b139-cb2faf540292.jpg)
 
