@@ -13,10 +13,6 @@
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/StarkElessar/gulp-2022.git"
-  },
   "keywords": [
     "gulp",
     "webpack",
@@ -27,9 +23,7 @@
   ],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/StarkElessar/gulp-2022/issues"
-  },
+  "bugs": "",
   "homepage": "https://svetlana0905.github.io/levelUp",
   "devDependencies": {
     "@babel/core": "^7.19.1",
