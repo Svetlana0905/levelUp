@@ -3,3 +3,4 @@
 GitHub Pages - https://svetlana0905.github.io/levelUp/
 
 Тестове задание на верстку. HTML+JS
+Дата - 24.01.2023 - 26.01.2023
